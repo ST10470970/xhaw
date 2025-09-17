@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empowering the Nation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We provide skills training for domestic workers and gardeners."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSixMonthCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Six-Month Courses"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSixWeekCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Six-Week Courses"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalculateFees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Fees"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

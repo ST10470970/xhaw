@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Fees"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Name"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Courses:"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbFirstAid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="First Aid (R1500)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbSewing"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Sewing (R1500)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbLandscaping"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Landscaping (R1500)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbLifeSkills"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Life Skills (R1500)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbChildMinding"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Child Minding (R750)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbCooking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cooking (R750)"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/cbGardenMaintenance"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Garden Maintenance (R750)"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvBreakdown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvTotalFees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnSubmitRequest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Request"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBackCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
